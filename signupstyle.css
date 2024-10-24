@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.left, .right {
+    flex: 1;
+}
+.left {
+    background-image: url("https://assets.florista.ph/uploads/product-pics/2486_58_2486.webp");
+    background-size: cover;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.right h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: -0.4px;
+    color: #141718;
+    margin-bottom: 16px;
+}
+.right .link {
+    color: #141718;
+    margin-bottom: 50px;
+}
+.right input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e8ecef;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #6c7275;
+}
+.right .password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.password-container img {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+.right .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.checkbox-container input {
+    margin-right: 10px;
+}
+.right .terms {
+    color: #6c7275;
+}
+.right button {
+    border: none;
+    padding: 10px 40px;
+    background-color: #141718;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.logo {
+    font-family: 'Arial', sans-serif; /* Choose a font family */
+    font-size: 1.4em; /* Adjust the size of the logo */
+    font-weight: bold; /* Make the logo bold */
+    color: #4A4A4A; /* Set the text color */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    text-align: center; /* Center the text */
+    /* Add any additional styles you like */
+}
